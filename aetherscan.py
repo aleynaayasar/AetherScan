@@ -6,7 +6,6 @@ from dataclasses import dataclass, field, asdict
 from datetime import datetime
 from typing import Optional
 
-# Dependency Check
 try:
     from scapy.all import ARP, Ether, srp, conf
     from rich.console import Console
@@ -80,7 +79,7 @@ class AetherReporter:
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>AETHER SCAN // Tactical Audit</title>
+    <title>AETHER SCAN</title>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=Outfit:wght@300;400;900&display=swap');
         :root {{ --bg: #050505; --surface: #0a0a0a; --accent: #00FF41; --danger: #FF3E3E; --warning: #FFEA00; --border: #1a1a1a; }}
